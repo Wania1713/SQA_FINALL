@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Set up node-js
-         run:actions/checkout@v3
+        run: actions/checkout@v3
          with:
             Node-version'18'
 
