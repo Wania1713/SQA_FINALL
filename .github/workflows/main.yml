@@ -35,5 +35,5 @@ jobs:
       - name: install newman
         run: npm install -g newman
 
-      - name: postman tests
+      - name: CI
         run: newman run Books.postman_collection.json -e test.postman_environment.json
